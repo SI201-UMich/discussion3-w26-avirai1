@@ -27,7 +27,7 @@ class Rectangle():
     # Returns a boolean value
 
     def __eq__(self, value):
-        return self.length == value.length and self.width == value.width
+        return (self.length == value.length and self.width == value.width)
 
 
     

@@ -12,7 +12,7 @@ class Rectangle():
     # Create the "__str__" method
 
     def __str__(self):
-        return str(self.length) + ", " + str(self.width)
+        return (str(self.length) + ", " + str(self.width))
 
 
 
